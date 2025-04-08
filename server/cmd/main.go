@@ -60,8 +60,8 @@ func main() {
 		json.NewEncoder(w).Encode(Response{Bid: currency.USDBRL.Bid})
 	})
 
-	log.Println("Servidor rodando na porta 8081...")
-	log.Fatal(http.ListenAndServe(":8081", nil))
+	log.Println("Servidor rodando na porta 8080...")
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
 func fetchDollarQuote(ctx context.Context) (*CurrencyResponse, error) {

@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	apiURL     = "http://localhost:8081/cotacao"
+	apiURL     = "http://localhost:8080/cotacao"
 	outputFile = "cotacao.txt"
 	timeout    = 300 * time.Millisecond
 )
